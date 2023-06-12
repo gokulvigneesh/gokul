@@ -1,0 +1,95 @@
+
+.image-gallery {
+    position: relative;
+    width: 50%;
+    height: 50%;
+  }
+  
+
+  .mySlides {
+    display: none;
+    text-align: center;
+    width: 50%;
+  }
+  
+  .mySlides.active {
+    display: block;
+    width: 50%;
+  }
+  
+
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+ 
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+ 
+  .caption-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 2px 16px;
+    color: #f2f2f2;
+    width: 613px;
+  }
+  
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1px;
+    width: 50%;
+  }
+  
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 1px;
+    width: 50%;
+  }
+  
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .demo.active {
+    opacity: 1;
+  }
+  
+
+  .cursor {
+    cursor: pointer;
+  }
+  
+
+  .demo:hover {
+    opacity: 0.8;
+  }
+  

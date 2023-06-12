@@ -1,0 +1,21 @@
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+  }
+  
+  .image-container img {
+    width: 30%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container.zoomed img {
+    transform: scale(1.5);
+    z-index: 1;
+  }
+  

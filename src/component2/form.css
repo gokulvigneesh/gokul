@@ -1,0 +1,85 @@
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    padding: 50px;
+    position: relative;
+    top: 60px;
+  }
+  .head{
+    color: #fff;
+    position: relative;
+    bottom: 40px;
+  }
+
+  .container{
+    position: relative;
+    top: -5px;
+  }
+  
+  .sign-up-form div {
+    margin-bottom: 50px;
+  }
+  
+  .sign-up-form label {
+    font-weight: bold;
+    
+  }
+  
+  .sign-up-form input {
+    width: 270px;
+    padding: 10px;
+    background-color: #d4d4d4;;
+    border: 1px solid #242424;
+    border-radius: 4px;
+  }
+  
+  .sign-up-form .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .error-message1 {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    position: relative;
+    left: -16px;
+
+  }
+  
+  .sign-up-form .password-container {
+    position: relative;
+  }
+  
+  .sign-up-form .password-icon:hover {
+    color: #333;
+  }
+  
+  .sign-up-form button {
+    width: 290px;
+    padding: 12px 20px;
+    background-color: #ff0505;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .sign-up-form button:hover {
+    background-color: #0056b3;
+  }
+  .password-icon {
+    position: relative;
+    bottom: 20px;
+    left: 260px;
+    transform: translateY(-50%);
+    color: #494949;
+    cursor: pointer;
+  }
