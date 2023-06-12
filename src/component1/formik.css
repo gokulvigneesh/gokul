@@ -1,78 +1,52 @@
-.form-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(202, 202, 202);
-    width: 30%;
-    height: 350px;
-    position: relative;
-    left: 450px;
-    top: 100px;
-    border: rgb(236, 255, 192);
-    border-radius: 20px;
-   }
-   .login{
-     position: relative;
-     bottom: 25px;
-     left: 118px;
-     font-size: 25px;
-     font-weight: 600;
-     color: rgb(23, 65, 255);
-   }
-   
-   .input{
-     position: relative;
-     left: 5px;
-     padding: 10px;
-     border: rgb(255, 255, 255);
-     border-radius: 5px;
-   }
-   .input1{
-     position: relative;
-     bottom: 24px;
-     left: 48px;
-     width: 202px;
-     border: rgb(255, 255, 255);
-     border-radius: 5px;
-   }
-   .form-field {
-     margin-bottom: 30px;
- 
-   }
-   
-   label {
-     margin-bottom: 5px;
-     position: relative;
-     right: 15px;
-   }
-   
-   .error {
-     border-color: red;
-     position: relative;
-     
- 
-   }
-   
-   .error-message {
-     color: red;
-     font-size: 0.8rem;
-     position: relative;
-     left: 55px;
-   }
-   
-   .btn{
-     width: 100%;
-     padding: 10px;
-     position: relative;
-     top: -15px;
-     left: 4px;
-     background-color: rgb(84, 207, 255);;
-     border: rgb(84, 207, 255);
-     border-radius: 5px;
-     size: 16px;
-     cursor: pointer;
-   }
-   .btn:hover{
-     background-color: rgb(125, 125, 255);
-   }
+/* ... other CSS styles ... */
+
+.login-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.login-form h2 {
+  margin-bottom: 10px;
+}
+
+.login-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form form div {
+  margin-bottom: 10px;
+}
+
+.login-form label {
+  font-weight: bold;
+}
+
+.login-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form button {
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #555;
+}
+
+.login-form .close-button {
+  margin-top: 10px;
+}
